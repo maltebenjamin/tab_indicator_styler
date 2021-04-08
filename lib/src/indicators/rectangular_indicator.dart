@@ -100,7 +100,7 @@ class _CustomPainter extends BoxPainter {
         configuration.size!.height - (2 * verticalPadding));
 
     Offset myoffset =
-        Offset(offset.dx + (horizontalPadding), offset.dy + verticalPadding);
+        Offset(offset.dx + (horizontalPadding), offset.dy);
     final Rect rect = myoffset & mysize;
     final Paint paint = Paint();
     paint.color = color;
